@@ -1,3 +1,9 @@
 {pkgs, ...}:{
-  plugins.lualine.enable = true;
+  imports = [
+    ./telescope.nix
+  ];
+  plugins = {
+    web-devicons.enable = true;
+    lualine.enable = true;
+  };
 }

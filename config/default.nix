@@ -2,7 +2,7 @@
   imports = [ 
     ./options.nix
     ./plugins.nix
+    ./keymaps.nix
   ];
-  globals.mapleader = ",";
   colorschemes.catppuccin.enable = true;
 }
