@@ -10,6 +10,7 @@
   };
 
   keymaps = [
+
     {
       mode = ["n" "v"];
       key = "<leader>D";
